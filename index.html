@@ -16,40 +16,65 @@
     <meta charset="" utf-8">
 
     <style>
+        body{
+            margin:0;
+        }
         a {
             color:black;
             text-decoration: none;
+        }
+
+        h1{
+            font-size:70px;
+            text-align:center;
+            padding:30px;
+            margin:0;
+            border-bottom:5px solid black;
+        }
+
+        ul{
+            border-right:5px solid black;
+            width:200px;
+            margin:0;
+        }
+
+        #grid{
+            display:grid;
+            grid-template-columns: 275px 1fr;
         }
     </style>
 </head>
 
 <body>
-    <h1><a href="index.html" style="color:red; text-decoration:underline">준혁이와 함께하는 봉화여행~</a></h1>
-    <br>
-    <img src="증명사진.jpg" height="200">
-    <ul>
-        <li><a href="주소.html">오시는 길</a></li>
-        <li><a href="준비물.html">준비물</a></li>
-        <li><a href="방명록.html">방명록</a></li>
-        <br>
-    </ul>
-    <h2>봉화 일정</h2>
-    <ul>
-        <li><a href="1.html">5월 22일 (목)</a></li>
-        <li><a href="2.html">5월 23일 (금)</a></li>
-        <li><a href="3.html">5월 24일 (토)</a></li>
-    </ul>
-    <h2>봉화군이란?</h2>
-    <p>
-        <img src="봉화2.jpg" height="400"><img src="봉화.webp" height="400">
-        <p>경상북도 북부에 있는 군. 인구는 <strong>28,588명</strong> ㅋㅋㅋㅋㅋ<br>
-        북쪽에 강원특별자치도 영월군, 태백시, 삼척시가 있으며 동쪽에 울진군, 남쪽에 안동시와 영양군, 서쪽에 영주시가 있다.<br>
-        경북 북부 중에서도 <strong>가장 낙후된 편</strong>으로, 2020~2021년 인구과소지역비율 전국 1위를 달성했는데, 관내 절반 정도가 인구과소지역에
-        해당되며 <strong>재정자립도 전국 하위 10%</strong>에 들어갈 정도로 지역경제 역시 상당히 취약하다. 2016년 및 2021년에는 전국 지자체 간 재정자립도에서 명실상부 꼴찌를 맡기까지 했다. 소멸위험지수 또한
-        2024년 기준 군위군 다음으로 낮은 동네이다.<br><br><br>
-        </p>
+    <h1><a href="index.html" style="color:rgb(9, 97, 9)">준혁이와 함께하는 봉화여행~</a></h1>
+    <div id="grid">
+        
+            <ul>
+                <img src="증명사진.jpg" height="200">
+                <li><a href="주소.html">오시는 길</a></li>
+                <li><a href="준비물.html">준비물</a></li>
+                <li><a href="방명록.html">방명록</a></li>
 
-    </p>
+            <h2>봉화 일정</h2>
+                <li><a href="1.html">5월 22일 (목)</a></li>
+                <li><a href="2.html">5월 23일 (금)</a></li>
+                <li><a href="3.html">5월 24일 (토)</a></li>
+            </ul>
+        
+        <div>
+            <h2>봉화군이란?</h2>
+            <p>
+                <img src="봉화2.jpg" height="400"><img src="봉화.webp" height="400">
+                <p>경상북도 북부에 있는 군. 인구는 <strong>28,588명</strong> ㅋㅋㅋㅋㅋ<br>
+                북쪽에 강원특별자치도 영월군, 태백시, 삼척시가 있으며 동쪽에 울진군, 남쪽에 안동시와 영양군, 서쪽에 영주시가 있다.<br>
+                경북 북부 중에서도 <strong>가장 낙후된 편</strong>으로, 2020~2021년 인구과소지역비율 전국 1위를 달성했는데, 관내 절반 정도가 인구과소지역에
+                해당되며 <strong>재정자립도 전국 하위 10%</strong>에 들어갈 정도로 지역경제 역시 상당히 취약하다. 2016년 및 2021년에는 전국 지자체 간 재정자립도에서 명실상부 꼴찌를 맡기까지 했다. 소멸위험지수 또한
+                2024년 기준 군위군 다음으로 낮은 동네이다.<br><br><br>
+                </p>
+
+            </p>
+        </div>
+    </div>
 </body>
 
 </HTML>

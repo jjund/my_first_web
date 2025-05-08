@@ -14,30 +14,56 @@
         <title>봉화여행</title>
         <meta charset=""utf-8">
         <style>
+            body{
+                margin:0;
+            }
             a {
                 color:black;
                 text-decoration: none;
+            }
+    
+            h1{
+                font-size:70px;
+                text-align:center;
+                padding:30px;
+                margin:0;
+                border-bottom:5px solid black;
+            }
+    
+            ul{
+                border-right:5px solid black;
+                width:200px;
+                margin:0;
+            }
+    
+            #grid{
+                display:grid;
+                grid-template-columns: 275px 1fr;
             }
         </style>
     </head>
 
     <body>
-        <h1><a href="index.html">준혁이와 함께하는 봉화여행~</a></h1>
-        <ul>
-            <li><a href="주소.html">오시는 길</a></li>
-            <li><a href="준비물.html">준비물</a></li>
-            <li><a href="방명록.html">방명록</a></li>
-            <br>
-        </ul>
-        <h2>봉화 일정</h2>
-        <ul>
-            <li><a href="1.html">5월 22일 (목)</a></li>
-            <li><a href="2.html" style="color:red; text-decoration:underline">5월 23일 (금)</a></li>
-            <li><a href="3.html">5월 24일 (토)</a></li>
-        </ul>
+        <h1><a href="index.html" style="color:rgb(9, 97, 9)">준혁이와 함께하는 봉화여행~</a></h1>
+    <div id="grid">
+        
+            <ul>
+                <img src="증명사진.jpg" height="200">
+                <li><a href="주소.html">오시는 길</a></li>
+                <li><a href="준비물.html">준비물</a></li>
+                <li><a href="방명록.html">방명록</a></li>
+
+            <h2>봉화 일정</h2>
+                <li><a href="1.html">5월 22일 (목)</a></li>
+                <li><a href="2.html" style="color:red">5월 23일 (금)</a></li>
+                <li><a href="3.html">5월 24일 (토)</a></li>
+            </ul>
+        
+        <div>
+    
         <h2>5월 23일 금요일</h2>
         <p>
-            <ul>
+            <ul style="border:0">
                 <li> <strong>오전 8시</strong><br>
                     기상 후 각자 할일 하기<br>
                     Ex) 주변산책, 일하기, 테라스에서 담배피기 등</li><br>
@@ -56,5 +82,8 @@
             
             </ul>
         </p>
+        </div>
+        </div>
+    
     </body>
 </HTML>
